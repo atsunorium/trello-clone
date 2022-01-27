@@ -1,0 +1,33 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 45px;
+  font-weight: 600;
+  color: #fff;
+  text-shadow: 2px 2px 2px #000;
+}
+
+header{
+  text-align: center;
+  background: rgb(222,222,111);
+  padding: 4px 10%;
+  margin-bottom: 5px;
+}
+
+.app{
+  background: url(../src/images/bg.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+}
+
+.taskCard{
+  width: 250px;
+  padding: 10px 25px;
+  margin: 10px 1%;
+  background-color: rgb(228,228,228);
+  border-radius: 5px;
+}
