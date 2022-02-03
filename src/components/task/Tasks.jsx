@@ -1,5 +1,5 @@
 import React from 'react';
-import { DragDropContext } from 'react-beautiful-dnd';
+import { DragDropContext, Droppable } from 'react-beautiful-dnd';
 import { Task } from './Task';
 
 const reorder = (taskList, startIndex, endIndex) => {
@@ -33,7 +33,7 @@ export const Tasks = ({taskList, setTaskList}) => {
     {provided.placeholder}
     </div>
     )}
-    
+
       </Droppable>
     </DragDropContext>
   </div>

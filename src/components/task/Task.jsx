@@ -1,5 +1,4 @@
 import React from 'react';
-import {Task} from "./Task";
 import { Draggable } from 'react-beautiful-dnd';
 
 export const Task = ({task, taskList, setTaskList, index}) => {
